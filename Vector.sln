@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector", "Vector\Vector.csproj", "{706A925E-CC82-4A0F-8A2E-E06719660619}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payloads", "Payloads", "{59BE005B-946C-4F1F-BDB2-CC682196A17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payload.Common", "Payloads\Payload.Common\Payload.Common.csproj", "{82279EBD-1A1B-4DBB-86E7-B9F87050BFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payload.HelloWorld", "Payloads\Payload.HelloWorld\Payload.HelloWorld.csproj", "{40D4FB87-FF53-466A-9687-42E7B7C30308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payload.UIThreadMonitor", "Payloads\Payload.UIThreadMonitor\Payload.UIThreadMonitor.csproj", "{58D06A74-3A77-4584-B16D-802D0A47B131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIThreadMonitorTest", "Payloads\Payload.UIThreadMonitorTest\UIThreadMonitorTest.csproj", "{510D0638-CC56-4454-A638-3782C6389A16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3072001B-6932-42BA-AB8A-389E8130995A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{35B2B35E-62BD-44E1-9764-6C32D48F0C3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{706A925E-CC82-4A0F-8A2E-E06719660619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706A925E-CC82-4A0F-8A2E-E06719660619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706A925E-CC82-4A0F-8A2E-E06719660619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706A925E-CC82-4A0F-8A2E-E06719660619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82279EBD-1A1B-4DBB-86E7-B9F87050BFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82279EBD-1A1B-4DBB-86E7-B9F87050BFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82279EBD-1A1B-4DBB-86E7-B9F87050BFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82279EBD-1A1B-4DBB-86E7-B9F87050BFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D4FB87-FF53-466A-9687-42E7B7C30308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D4FB87-FF53-466A-9687-42E7B7C30308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D4FB87-FF53-466A-9687-42E7B7C30308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D4FB87-FF53-466A-9687-42E7B7C30308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D06A74-3A77-4584-B16D-802D0A47B131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D06A74-3A77-4584-B16D-802D0A47B131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D06A74-3A77-4584-B16D-802D0A47B131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D06A74-3A77-4584-B16D-802D0A47B131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510D0638-CC56-4454-A638-3782C6389A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510D0638-CC56-4454-A638-3782C6389A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510D0638-CC56-4454-A638-3782C6389A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510D0638-CC56-4454-A638-3782C6389A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B2B35E-62BD-44E1-9764-6C32D48F0C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B2B35E-62BD-44E1-9764-6C32D48F0C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B2B35E-62BD-44E1-9764-6C32D48F0C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B2B35E-62BD-44E1-9764-6C32D48F0C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82279EBD-1A1B-4DBB-86E7-B9F87050BFD9} = {59BE005B-946C-4F1F-BDB2-CC682196A17A}
+		{40D4FB87-FF53-466A-9687-42E7B7C30308} = {59BE005B-946C-4F1F-BDB2-CC682196A17A}
+		{58D06A74-3A77-4584-B16D-802D0A47B131} = {59BE005B-946C-4F1F-BDB2-CC682196A17A}
+		{510D0638-CC56-4454-A638-3782C6389A16} = {3072001B-6932-42BA-AB8A-389E8130995A}
+		{35B2B35E-62BD-44E1-9764-6C32D48F0C3C} = {3072001B-6932-42BA-AB8A-389E8130995A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C88222B-4BAF-410E-AF8C-3DFB43461876}
+	EndGlobalSection
+EndGlobal
